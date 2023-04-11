@@ -1,0 +1,24 @@
+.main-container {
+  background-image: url(https://dm.imagethumb.com/images/jpc/hh/desktop_final_purple.jpg);
+  height: 100vh;
+}
+.jackpot-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+}
+.jackpot-text {
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+}
+#totalJackpot {
+  font-size: 100px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
